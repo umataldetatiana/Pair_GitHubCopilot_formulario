@@ -1,0 +1,68 @@
+/* FILEPATH: /C:/Users/WINDOWS/OneDrive/Documentos/formulario_copilot/styles.css */
+
+/* Estilização para o cabeçalho */
+header {
+    width: 100%; /* O cabeçalho ocupa a largura total da página */
+    padding: 20px 0; /* Padding no topo e na parte inferior do cabeçalho */
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    text-align: center; /* Alinhamento central do texto no cabeçalho */
+    position: fixed; /* Posição fixa, o cabeçalho sempre permanece no topo */
+    top: 0; /* Posição superior do cabeçalho */
+    left: 0; /* Posição esquerda do cabeçalho */
+    z-index: 1000; /* Profundidade de empilhamento, o cabeçalho estará sempre na frente dos outros elementos */
+}
+
+/* Estilização para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Família de fontes do corpo da página */
+    margin: 0; /* Margem do corpo da página */
+    padding: 0; /* Padding do corpo da página */
+    background-color: #f0f0f0; /* Cor de fundo do corpo da página */
+    display: flex; /* O corpo da página é um container flexível */
+    justify-content: center; /* Alinhamento horizontal dos itens no corpo da página */
+    align-items: center; /* Alinhamento vertical dos itens no corpo da página */
+    height: 100vh; /* Altura do corpo da página é 100% da altura da janela de visualização */
+    padding-top: 60px; /* Padding no topo do corpo da página. Ajuste este valor com base na altura do seu cabeçalho */
+}
+/* Estilização para o formulário */
+form {
+    width: 100%; /* O formulário ocupa a largura total do seu container */
+    max-width: 400px; /* Largura máxima do formulário */
+    padding: 20px; /* Padding ao redor do formulário */
+    background-color: #ffffff; /* Cor de fundo do formulário */
+    border-radius: 8px; /* Raio da borda do formulário (arredondamento das bordas) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ao redor do formulário */
+}
+
+/* Estilização para o rótulo (label) */
+label {
+    display: block; /* O rótulo é exibido como um bloco, ocupando toda a largura disponível */
+    margin-bottom: 5px; /* Margem abaixo do rótulo */
+}
+
+/* Estilização para os campos de entrada (input) */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%; /* Os campos de entrada ocupam a largura total do seu container */
+    padding: 10px; /* Padding ao redor dos campos de entrada */
+    border: 1px solid #ddd; /* Borda ao redor dos campos de entrada */
+    border-radius: 4px; /* Raio da borda dos campos de entrada (arredondamento das bordas) */
+    margin-bottom: 10px; /* Margem abaixo dos campos de entrada */
+    box-sizing: border-box; /* A largura e altura dos campos de entrada incluem o padding e a borda */
+}
+/* Styling for the submit button */
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Styling for the hover state of the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
