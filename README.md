@@ -20,7 +20,7 @@ Entenda que engenharia de prompt é:
 Fui direto ao ponto, especificando exatamente o que queria: "Crie um formulário HTML com campos para nome, email e senha." O Copilot precisa entender exatamente o que precisa ser feito sem ambiguidades.
 
 2. Incluir detalhes Técnicos e Funcionais:
-Nesse exmplo eu não queria um formulário genérico. Especifiquei detalhes funcionais e técnicos: "Inclua validações de entrada." Seguindo desta forma, o Copilot entendeu que o formulário deveria ter uma camada de verificação de dados.
+Nesse exemplo eu não queria um formulário genérico. Especifiquei detalhes funcionais e técnicos: "Inclua validações de entrada." Seguindo desta forma, o Copilot entendeu que o formulário deveria ter uma camada de verificação de dados.
 
 3. Considerar a Usabilidade e a Experiência do Usuário:
 Ao dizer "Deve ser responsivo para dispositivos móveis. Identifique problemas de UX", eu queria que o Copilot levasse em conta a usabilidade do formulário em diferentes dispositivos, considerando estilos CSS que fossem adaptáveis a várias telas.
