@@ -1,0 +1,51 @@
+<!-- 
+    Este é um arquivo HTML que contém um formulário para registro de usuário.
+    Inclui um cabeçalho, um formulário com campos de entrada para nome, email e senha, e um botão de envio.
+    Há também uma div de mensagem oculta que exibe uma mensagem de sucesso quando o formulário é enviado.
+    O arquivo inclui arquivos CSS e JavaScript externos para estilização e funcionalidade.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define a codificação de caracteres para o documento -->
+    <meta charset="UTF-8">
+    <!-- Define a viewport para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página -->
+    <title>Minha Página HTML</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Formulário com Copilot</h1>
+    </header>
+    <main>
+        <!-- Formulário de cadastro -->
+        <form>
+            <!-- Campo de entrada para o nome -->
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            
+            <!-- Campo de entrada para o email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            
+            <!-- Campo de entrada para a senha -->
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" minlength="8" required><br>
+            
+            <!-- Botão de envio do formulário -->
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Div de mensagem de sucesso, inicialmente oculta -->
+        <div id="message" style="display: none;">
+            <p>Formulário concluído com sucesso!</p>
+        </div>
+    </main>
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="js/script.js"></script>
+</body>
+</html>
