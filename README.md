@@ -12,7 +12,7 @@ Foco em UX: Design intuitivo e feedbacks claros para o usuário.
 Segurança: Medidas para garantir a proteção dos dados inseridos.
 
 O prompt: 
- "Crie um formulário HTML com campos para nome, email e senha. Inclua validações de entrada. Deve ser responsivo para dispositivos móveis. Identifique problemas de UX. A segurança é essencial."
+ "Crie um formulário HTML com campos para nome, email e senha. Inclua validações de entrada. Deve ser responsivo web e mobile. Identifique problemas de UX. A segurança é essencial."
 
 Entenda que engenharia de prompt é:
 
